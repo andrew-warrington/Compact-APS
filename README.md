@@ -1,6 +1,8 @@
 # Compact-APS
 
-A compact hardware configuration for a DIY APS system based on the OpenAPS toolset. The goal of this build is to put everything needed for an OpenAPS-based implementation in a single box (except for the pump and CGM sensor of course!). Pictures are available in the images folder of this repo. Note, in the pictures the thing is held together by elastics, but this is only because I have not yet received the screws I ordered. :)
+This repo contains a compact hardware configuration for a DIY APS system based on the OpenAPS toolset. The goal of this build is to put everything needed for an OpenAPS-based implementation in a single box, except for the pump and CGM sensor of course! Pictures are available in the images folder of this repo. 
+
+Note, in the pictures the thing is held together by elastics, but this is only because I have not yet received the screws I ordered. :)
 
 Dimensions:
 10 cm long
