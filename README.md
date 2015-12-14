@@ -49,4 +49,4 @@ https://blog.adafruit.com/2014/11/03/diet-raspberry-pi-its-only-wafer-thin-raspb
 
 More information to come when I have further time.
 
-- Andrew Warrington
+Best wishes, Andrew Warrington
