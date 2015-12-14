@@ -19,20 +19,21 @@ The "Moon and stars" face on the top cover helps to remember how to place the de
 
 v1 design includes the following components:
 
-1 Raspberry Pi 2 + SD card with NOOB Raspian and some extra space (standard stuff)
-1 standard dual-port PCB-mountable USB connector (dismantled and rebuilt to face backwards - this would take some time to explain and so I will describe it further at a later time)
-1 Carelink USB dongle
-1 Adafruit PowerBoost 1000C
-1 Power switch for the PowerBoost 1000C
-1 Duracell DRSI9220 Lithium Ion battery (Samsung Galaxy Note 2 replacement battery) - 2500 mAh
-1 mobile phone battery connector (salvaged from an inexpensive Samsung mobile phone)
-1 Wixel (to collect data from Dexcom CGM in an Xdrip configuration. Not tested as I don't have a Dexcom...)
-1 Asus USB-BT400 Bluetooth 4.0 dongle (for Xdrip configuration but also might be used to connect via an app one day)
-1 Edimax EW-7811UN Nano WiFi adapter
-1 Medtronic remote control MMT-503EU, plus A23 12-volt battery, plus 3 x 4N25 optocouplers (this was for an experiment. it worked, but it was irritating, so this will be removed in v2)
-1 home-designed and printed 3D case (files available in this repo)
-m2.5 x 8 nuts & bolts (cut down to various lengths as needed)
-m2.5 x 30 nuts & bolts (cut down to various lengths as needed)
+- 1 Raspberry Pi 2 + SD card with NOOB Raspian and some extra space (standard stuff)
+- 1 standard dual-port PCB-mountable USB connector (dismantled and rebuilt to face backwards - this would take some time to explain and so I will describe it further at a later time)
+- 1 Carelink USB dongle
+- 1 Adafruit PowerBoost 1000C
+- 1 Power switch for the PowerBoost 1000C
+- 1 Duracell DRSI9220 Lithium Ion battery (Samsung Galaxy Note 2 replacement battery) - 2500 mAh
+- 1 mobile phone battery connector (salvaged from an inexpensive Samsung mobile phone)
+- 1 Wixel (to collect data from Dexcom CGM in an Xdrip configuration. Not tested as I don't have a Dexcom...)
+- 1 Asus USB-BT400 Bluetooth 4.0 dongle (for Xdrip configuration but also might be used to connect via an app one day)
+- 1 Edimax EW-7811UN Nano WiFi adapter
+- 1 Medtronic remote control MMT-503EU, plus A23 12-volt battery, plus 3 x 4N25 optocouplers (this was for an experiment. it worked, but it was irritating, so this will be removed in v2)
+- 1 home-designed and printed 3D case (files available in this repo)
+- m2.5 x 8 nuts & bolts (cut down to various lengths as needed)
+- m2.5 x 30 nuts & bolts (cut down to various lengths as needed)
+
 + bits of wire, solder, heat-shrink, the occasional piece of electrical tape, sweat, tears.
 
 v2 design will have the following changes:
