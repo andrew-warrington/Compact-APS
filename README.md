@@ -26,7 +26,7 @@ v1 design includes the following components:
 - 1 Carelink USB dongle
 - 1 Adafruit PowerBoost 1000C
 - 1 Power switch for the PowerBoost 1000C
-- 1 Duracell DRSI9220 Lithium Ion battery (Samsung Galaxy Note 2 replacement battery) - 2500 mAh
+- 1 Duracell DRSI9220 Lithium Ion battery (Samsung Galaxy Note replacement battery) - 2500 mAh
 - 1 mobile phone battery connector (salvaged from an inexpensive Samsung mobile phone)
 - 1 Wixel (to collect data from Dexcom CGM in an Xdrip configuration. Not tested as I don't have a Dexcom...)
 - 1 Asus USB-BT400 Bluetooth 4.0 dongle (for Xdrip configuration but also might be used to connect via an app one day)
