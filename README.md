@@ -44,6 +44,7 @@ v2 design will have the following changes:
 - An Adafruit OLED display will be added in its place
 - Momentarily switches (spring-loaded slider to prevent accidental activation) may be added for "yes/no" user responses to prompts on the OLED display - if needed
 - Wireless charging (if it works) 
+- A switch for "exercise mode" - a mode I intend to add which warns the APS I am exercising and reduces the aggressivity of the correction algorithm
 
 A description of the build will be developed over time and posted to this repo. As a start, step 1 in the process was to strip down the RPi - desolder the GPIO pins and remove the outermost dual-USB port. This was not straightforward and I destroyed the first Pi I tried it on. Then I came across this tutorial and it became easy:
 
