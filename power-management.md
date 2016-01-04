@@ -4,6 +4,9 @@ Ideas sourced from here, where original contributors are mentioned:
 http://babaawesam.com/2014/01/24/power-saving-tips-for-raspberry-pi/
 
 ##Underclocking the RPi2. 
+
+tested
+
 Adding these lines to your config.txt (assuming RPi2 has not been overclocked)
 * arm_freq_min=250
 * core_freq_min=100
@@ -19,11 +22,16 @@ You can check your processor speed with the command
 
 ##Powering off USB & ethernet ports between loops (or permanently!)
 
+tested
+
 https://github.com/codazoda/hub-ctrl.c
 
 worst case: returns to normal after a reboot
 
 ##Powering off HDMI
+
+not yet tested
+
 Warning, does not return to normal after a reboot. Recommend to add the HDMI power on command to crontab @reboot.
 
 If your system is headless (no video output) you can turn off the HDMI port with:
