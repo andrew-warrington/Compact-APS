@@ -2,8 +2,8 @@
 
 This repository contains a compact hardware configuration for a DIY APS system based on the OpenAPS toolset. The goal of this build is to put everything needed for an OpenAPS-based implementation in a single box, including the battery. Pictures are available in the Images folder of this repository. The custom case files are in the Case folder.
 
-V1 is designed for a Raspberry Pi / Carelink config
-V3.2 is designed for a Edison / TI USB CC1111 dongle config (mmeowlink)
+- V1 is designed for a Raspberry Pi / Carelink config.
+- V3.2 is designed for a Edison / TI USB CC1111 dongle config (mmeowlink)
 
 If you are just starting out, I recommend the Edison v3.2 due to smaller size and longer battery life.
 
