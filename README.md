@@ -1,19 +1,22 @@
 # Compact-APS
 
-This repository contains a compact hardware configuration for a DIY APS system based on the OpenAPS toolset. The goal of this build is to put everything needed for an OpenAPS-based implementation in a single box, except for the pump and CGM sensor of course! Pictures are available in the Images folder of this repository. The custom case files are in the Case folder.
+This repository contains a compact hardware configuration for a DIY APS system based on the OpenAPS toolset. The goal of this build is to put everything needed for an OpenAPS-based implementation in a single box, including the battery. Pictures are available in the Images folder of this repository. The custom case files are in the Case folder.
 
-There are two versions of this case. 
-V1 is for the Raspberry Pi 2 including a Carelink stick
-V3.2 is for the Edison with a TI USB dongle (mmeowlink)
+V1 is designed for a Raspberry Pi / Carelink config
+V3.2 is designed for a Edison / TI USB CC1111 dongle config (mmeowlink)
 
-V1 (Raspberry Pi) info:
+If you are just starting out, I recommend the Edison v3.2 due to smaller size and longer battery life.
 
-5 hours battery life, 5 hours charge time while running
+## V1 (Raspberry Pi) info
+
+- Battery life 5 hours, with 5 hours recharge time while running.
 - 10 cm long
 - 6.2 cm wide
 - 3 cm high
 
-For V1, the main tactic for reducing the footprint was to reverse one of the USB ports on the RPi2, so that the Carelink USB dongle is positioned over the RPi and not protrude outwards.
+The device supports reading from Medtronic pumps & CGM, as well as Dexcom (I think! I don't have a Dexcom to test with...). It includes Wifi and BLE hardware support as well, via USB dongles.
+
+The main tactic for reducing the footprint was to reverse one of the USB ports on the RPi2, so that the Carelink USB dongle is positioned over the RPi and not protrude outwards.
 
 Due to the inclusion of an Adafruit PowerBoost charger, the device charges like a mobile phone - no need to shut it down and swap around USB cables. Just plug it in and it will charge while running. An attempt was made to include wireless charging as well - this was not immediately successful so will be added in a later version if possible.
 
@@ -38,23 +41,33 @@ v1 design includes the following components:
 
 + bits of wire, solder, heat-shrink, the occasional piece of electrical tape, tools, sweat, tears.
 
-Getting started? Start here to desolder your Pi:
+Getting started? I started here, learning to desolder components on the Raspberry Pi.
+https://blog.adafruit.com/2014/11/03/diet-raspberry-pi-its-only-wafer-thin-raspberry_pi-raspberrypi/
 
+## V3.2 (Edison) info:
+- Battery life 31+ hours, with 2.5 hours recharge time while running.
+- 9.6 cm long
+- 6.1 cm wide
+- 2.8 cm high
+... with rounded edges to be easier to put in a pocket!
 
-V2 (Edison) info:
+v3.2 design includes the following components:
+- 1 Intel Edison with mini-breakout board
+    - includes WiFi and BLE on board
+    - the Edison USB pins 4 & 5 are shorted to force it persistently into host mode
+- 1 custom USB OTG adapter, made small to save space
+- 1 power switch
+- 2 Duracell DRSI9220 Lithium Ion battery (Samsung Galaxy Note replacement battery), in series for 7.4V
+- 1 FatShark 7.4 LiIon battery, which was disassembled to yield:
+    - The balance charging circuit
+    - The balance charging cable
+    - The power cable
+- 1 FatShark 7.4v 1000mAh wall charger
+- 1 TI USB dongle CC1111EMK868-915 running the excellent subg-rfspy and managed via mmeowlink
+- 1 Medtronic remote controlled via Edison GPIO (which most people would not need)
 
-31+ hours battery life, 2.5 hours charge time while running
-9.6
-6.1
-2.8
-...with rounded corners to make it fit better in a jeans pocket
+The case was further simplified over v1 to not require any screws or bolts.... also because this helps reduce size! The top snaps on and off with clips.
 
-
-
-A description of the build will be developed over time and posted to this repo. As a start, step 1 in the process was to strip down the RPi - desolder the GPIO pins and remove the outermost dual-USB port. This was not straightforward and I destroyed the first Pi I tried it on. Then I came across this tutorial and it became easy:
-
-
-
-More information to come when I have further time.
+I don't have time to document everything for this build at the moment unfortunately, but am happy to interact, answer individual questions, and improve the documentation from there based on what questions come up. Contact me if you want help.
 
 Best wishes, Andrew Warrington
